@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### The codes of the file can be seen in particular folders and the structure of the file is as below
+
+<pre>
+  my-react-app/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── resume.pdf
+├── assets/
+    ├── Twitter.png
+    ├── LinkedIn.png
+    ├── Github.png
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Skills.js
+│   │   ├── Portfolio.js
+│   │   ├── Resume.js
+│   │   
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+├── README.md
+└── ...
+
+</pre>
