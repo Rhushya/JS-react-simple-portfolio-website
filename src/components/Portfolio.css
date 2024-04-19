@@ -1,0 +1,29 @@
+#portfolio {
+    background-color: #000000;
+    /* Darkest black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#portfolio h2 {
+    color: #800080;
+    /* Purple text color */
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #09f;
+    /* Dark grey border */
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #800080;
+    /* Purple text color */
+}
+
+.project p {
+    color: #09f;
+    /* Dark grey text color */
+}

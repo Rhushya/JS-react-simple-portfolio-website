@@ -1,0 +1,35 @@
+#about {
+    padding: 20px;
+    background-color: white; /* Set background to white */
+  }
+  
+  #about h2 {
+    color: #333; /* Dark grey text color */
+  }
+  
+  .social-links {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .social-link {
+    display: block; /* Change to block to stack vertically */
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-bottom: 10px; /* Change margin to bottom for vertical spacing */
+  }
+  
+  .github {
+    background-image: url('../assets/github.png');
+  }
+  
+  .linkedin {
+    background-image: url('../assets/linkedin.png');
+  }
+  
+  .twitter {
+    background-image: url('../assets/twitter.png');
+  }

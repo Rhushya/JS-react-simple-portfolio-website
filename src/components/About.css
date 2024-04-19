@@ -1,0 +1,41 @@
+#about {
+    background-color: #000000;
+    /* Darkest black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #800080;
+    /* Purple text color */
+}
+
+.about-section {
+    margin-bottom: 20px;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Responsive grid layout */
+    gap: 20px;
+}
+
+.education-item {
+    background-color: #000000;
+    /* Darkest black background */
+    padding: 15px;
+    border: 1px solid #09f;
+    /* Dark grey border */
+    border-radius: 5px;
+}
+
+.education-item h4 {
+    color: #800080;
+    /* Purple text color */
+}
+
+.education-item p {
+    color: #09f;
+    /* Dark grey text color */
+}

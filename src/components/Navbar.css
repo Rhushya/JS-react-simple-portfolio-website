@@ -1,0 +1,45 @@
+.navbar {
+    background-color:#1d1e5a;
+    /* Blueish black color */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 10px;
+}
+
+.navbar-link {
+    color:#efb408;
+    /* Black color for text */
+    text-decoration: none;
+    
+    padding: 10px 15px;
+    /* Adjust padding for larger button appearance */
+    border: 3px solid #4b7b78;
+    /* Green border for button appearance */
+    border-radius: 4px;
+    /* Rounded corners for button appearance */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+    font-family: 'Arial', sans-serif;
+    /* Professional font */
+    font-size: 16px;
+    /* Larger font size */
+}
+
+.navbar-link:hover {
+    background-color: #08585c;
+    /* Change background color on hover */
+    color: white;
+    /* Change text color on hover */
+}

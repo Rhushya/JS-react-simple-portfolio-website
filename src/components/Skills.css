@@ -1,0 +1,30 @@
+#skills {
+    background-color: #000000;
+    /* Darkest black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#skills h2 {
+    color: #800080;
+    /* Purple text color */
+}
+
+#skills h3 {
+    color: #09f;
+    /* Dark grey text color */
+}
+
+#skills ul {
+    margin-bottom: 10px;
+    color: #09f;
+}
+
+#skills li {
+    color: #09f;
+    /* Dark grey text color for better visibility */
+    margin-bottom: 5px;
+}
+p{
+color: #09f;
+}
